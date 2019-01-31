@@ -12,17 +12,18 @@ function crazy() {
   var thisIsCrazy = function (){
     console.log("hey!!!")
   }
-
   thisIsCrazy();
 }
 
 function sayMyName() {
   var name = "Cricky";
 
+  sayMy();
+
   function sayMy() {
     var name = "Kristin";
     console.log(name);
   }
 
-  sayMy();
+
 }
